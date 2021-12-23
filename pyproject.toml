@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "repl_python3_Scrape-Google-Images-with-Python"
+version = "0.1.0"
+description = "Scrape Google Images. This repl has a code for scraping suggested search results and images result, including original resolution image."
+authors = ["Dimitry Zub <dimitryzub@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bs4 = "^0.0.1"
+lxml = "^4.6.3"
+google-search-results = "^2.3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
